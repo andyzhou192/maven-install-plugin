@@ -44,14 +44,6 @@ public abstract class AbstractInstallMojo
     protected RepositoryManager repositoryManager;
 
     /**
-     * Flag whether to create checksums (MD5, SHA-1) or not.
-     *
-     * @since 2.2
-     */
-    @Parameter( property = "createChecksum", defaultValue = "false" )
-    protected boolean createChecksum;
-
-    /**
      * Whether to update the metadata to make the artifact a release version.
      */
     @Parameter( property = "updateReleaseInfo", defaultValue = "false" )

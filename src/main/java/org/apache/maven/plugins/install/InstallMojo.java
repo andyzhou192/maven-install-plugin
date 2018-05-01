@@ -101,7 +101,7 @@ public class InstallMojo
         {
             // CHECKSTYLE_OFF: LineLength
             ProjectInstallerRequest projectInstallerRequest =
-                new ProjectInstallerRequest().setProject( project ).setCreateChecksum( createChecksum );
+                new ProjectInstallerRequest().setProject( project );
             // CHECKSTYLE_ON: LineLength
 
             if ( !installAtEnd )
