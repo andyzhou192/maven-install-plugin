@@ -25,24 +25,20 @@ import static org.mockito.Mockito.when;
 import java.io.File;
 import java.util.Collections;
 import java.util.List;
-import java.util.Map;
 
 import org.apache.maven.artifact.Artifact;
 import org.apache.maven.artifact.metadata.ArtifactMetadata;
 import org.apache.maven.execution.MavenSession;
 import org.apache.maven.plugin.MojoExecutionException;
 import org.apache.maven.plugin.testing.AbstractMojoTestCase;
-import org.apache.maven.plugins.install.AbstractInstallMojo;
-import org.apache.maven.plugins.install.InstallMojo;
 import org.apache.maven.plugins.install.stubs.AttachedArtifactStub0;
 import org.apache.maven.plugins.install.stubs.InstallArtifactStub;
 import org.apache.maven.project.DefaultProjectBuildingRequest;
 import org.apache.maven.project.MavenProject;
 import org.apache.maven.project.ProjectBuildingRequest;
-import org.apache.maven.shared.repository.RepositoryManager;
+import org.apache.maven.shared.transfer.repository.RepositoryManager;
 import org.apache.maven.shared.utils.io.FileUtils;
 import org.sonatype.aether.impl.internal.EnhancedLocalRepositoryManager;
-import org.sonatype.aether.util.ChecksumUtils;
 import org.sonatype.aether.util.DefaultRepositorySystemSession;
 
 /**

@@ -28,7 +28,7 @@ import org.apache.maven.plugins.annotations.Component;
 import org.apache.maven.plugins.annotations.Parameter;
 import org.apache.maven.project.ProjectBuildingRequest;
 import org.apache.maven.project.artifact.ProjectArtifactMetadata;
-import org.apache.maven.shared.repository.RepositoryManager;
+import org.apache.maven.shared.transfer.repository.RepositoryManager;
 
 /**
  * Common fields for installation mojos.
